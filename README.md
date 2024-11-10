@@ -17,4 +17,4 @@ streamlit run "yourpath\NLP.py"
 ```
 
 ## NB
-Si vous rencontrer un problème du static folder vous changeais le variable STATIC_DIRECTORY qui est dans sites-package/frontend/config.py en "yourpath/static" Chatbot_Sientifique_Article
+Si vous rencontrez un problème du static folder vous créez un folder et nommmez "static" changez le variable STATIC_DIRECTORY qui est dans sites-package/frontend/config.py en "yourpath/static"
