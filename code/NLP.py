@@ -115,12 +115,6 @@ def main():
             st.subheader("Réponse:")
             st.write(answer)
 
-            # Ajouter la question et la réponse au fichier CSV
-            article_filename = link.replace("/" , "").replace(":" , "") + ".csv"
-            with open(article_filename , mode="a" , newline="" , encoding="utf-8") as file:
-                writer = csv.writer(file , delimiter=";")
-                writer.writerow([ user_input , answer ])
-
 
 # Point d'entrée du script
 if __name__ == "__main__":
