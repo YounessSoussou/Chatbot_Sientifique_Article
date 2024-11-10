@@ -1,6 +1,6 @@
 # Chatbot pour résumer les articles scientifiques
 
-
+Ce projet est un ChatBot qui est conçu pour extraire le contenu textuel à partir d’articles scientifiques au format PDF ou HTML, générer des résumés concis de ces articles et répondre aux questions posées par l’utilisateur concernant leur contenu.
 
 ## Installation
 
